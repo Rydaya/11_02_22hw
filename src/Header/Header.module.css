@@ -1,0 +1,24 @@
+header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 65px;
+}
+.header__block {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.header__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.header__btn {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
