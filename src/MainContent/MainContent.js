@@ -11,12 +11,12 @@ const MainContent = () => {
             <div className={styles.img}>
                 <img src={googleImg} alt='' />
             </div>
-            <Input type='text' className={styles.input} />
-            <div className={styles.btn}>
+            <Input type='text' />
+            <div className={styles.blockBtn}>
                 <Button children='Поиск в Google' />
                 <Button children='Мне повезёт!' />
             </div>
-            <p className={styles.text}>Сервисы Google доступны на этих языках: <Link className={styles.link} children='українська' /></p>
+            <p className={styles.text}>Сервисы Google доступны на этих языках: <Link children='українська' /></p>
         </main>
     )
 }

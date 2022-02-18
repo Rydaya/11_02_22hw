@@ -7,10 +7,10 @@ const Header = () => {
     return (
         <header>
             <div className={styles.block}>
-                <Link className={styles.link} children='Почта' />
-                <Link className={styles.link} children='Картинки' />
-                <Button className={styles.btn} children='' />
-                <Button className={styles.btn} children='' />
+                <Link children='Почта' />
+                <Link children='Картинки' />
+                <Button children='' />
+                <Button children='' />
             </div>
         </header>
     )

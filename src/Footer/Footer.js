@@ -7,13 +7,13 @@ const Footer = () => {
         <footer>
             <div className={styles.text}>Украина</div>
             <div className={styles.block}>
-                <div className={styles.links}>
+                <div>
                     <Link children='Все о Google' />
                     <Link children='Реклама' />
                     <Link children='Для бизнеса' />
                     <Link children='Как работает Google Поиск' />
                 </div>
-                <div className={styles.links}>
+                <div>
                     <Link children='Конфиденциальность' />
                     <Link children='Условия' />
                     <Link children='Настройки' />
