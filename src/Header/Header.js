@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Link from '../domElements/Link';
 import Button from '../domElements/Button';
 import styles from './Header.module.css'
@@ -6,11 +6,11 @@ import styles from './Header.module.css'
 const Header = () => {
     return (
         <header>
-            <div className={styles.header__block}>
-                <Link className={styles.header__link} children='Почта' />
-                <Link className={styles.header__link} children='Картинки' />
-                <Button className={styles.header__btn} children='' />
-                <Button className={styles.header__btn} children='' />
+            <div className={styles.block}>
+                <Link className={styles.link} children='Почта' />
+                <Link className={styles.link} children='Картинки' />
+                <Button className={styles.btn} children='' />
+                <Button className={styles.btn} children='' />
             </div>
         </header>
     )

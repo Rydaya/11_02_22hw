@@ -4,19 +4,19 @@ header {
   justify-content: flex-end;
   margin-bottom: 65px;
 }
-.header__block {
+.block {
   display: flex;
   width: 200px;
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
 }
-.header__link {
+.link {
     color: #000;
     text-decoration: none;
 }
 
-.header__btn {
+.btn {
     border: none;
     width: 30px;
     height: 30px;
